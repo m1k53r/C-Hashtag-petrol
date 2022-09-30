@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NjkH1o4joGlLjCHR7eLpf7Ileta01McfoOz8hvo8334rqp6B5vywRqfSiYWi8D2/jE9547so54dksPh1zPDdRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\4cG1\\source\\repos\\palwio\\palwio.Shared\\palwio.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4cG1\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
