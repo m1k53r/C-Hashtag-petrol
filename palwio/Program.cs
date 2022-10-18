@@ -1,5 +1,6 @@
 ﻿using palwio.Shared;
 
-var test = new DataLibrary();
-test.Read();
-test.Drive();
+var main = new DataLibrary();
+main.Read();
+main.Drive();
+main.PrintSolution();

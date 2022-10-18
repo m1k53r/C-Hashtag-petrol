@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:palwio.Desktop"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,0,-6">
+        <Button Content="Sol 1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="92" RenderTransformOrigin="-3.642,0.895" Width="120" Click="Button_Click"/>
+        <Button Content="Sol 2" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="120" Height="92" Click="Button_Click_1"/>
+        <Button Content="Sol 3" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Width="120" Height="92" Click="Button_Click_3"/>
+        <Button Content="Sol 4" HorizontalAlignment="Left" Margin="385,10,0,0" VerticalAlignment="Top" Width="120" Height="92" Click="Button_Click_4"/>
+        <Button Content="Sol 5" HorizontalAlignment="Left" Margin="510,10,0,0" VerticalAlignment="Top" Width="120" Height="92" Click="Button_Click_2"/>
+        <TextBlock x:Name="exerciseOutput" HorizontalAlignment="Left" Margin="42,194,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Height="236" Width="730"/>
+        <TextBox x:Name="P95Price" HorizontalAlignment="Left" Margin="42,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="P95Price_TextChanged"/>
+        <TextBox x:Name="LPGPrice" HorizontalAlignment="Left" Margin="167,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="LPGPrice_TextChanged"/>
+        <TextBox x:Name="InstallationPrice" HorizontalAlignment="Left" Margin="292,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="InstallationPrice_TextChanged"/>
+        <Label Content="P95 Price" HorizontalAlignment="Left" Margin="42,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="LPG Price" HorizontalAlignment="Left" Margin="167,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Installation Price" HorizontalAlignment="Left" Margin="292,129,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

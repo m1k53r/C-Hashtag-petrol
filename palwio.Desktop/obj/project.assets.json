@@ -1,30 +1,107 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "CsvHelper/28.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "palwio.Console/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "palwio.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/palwio.Console.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/palwio.Console.dll": {}
+        }
+      },
+      "palwio.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CsvHelper": "28.0.1"
+        },
+        "compile": {
+          "bin/placeholder/palwio.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/palwio.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CsvHelper/28.0.1": {
+      "sha512": "T/Eid0mP/GeWV1RcxmUPSsBCtOm6wHbFII6iFydPfpIa6cd+siec0KGrLq5uabI8sH6crFi84OA1vNLkp8Lzlw==",
+      "type": "package",
+      "path": "csvhelper/28.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.28.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "palwio.Console/1.0.0": {
+      "type": "project",
+      "path": "../palwio/palwio.Console.csproj",
+      "msbuildProject": "../palwio/palwio.Console.csproj"
+    },
+    "palwio.Shared/1.0.0": {
+      "type": "project",
+      "path": "../palwio.Shared/palwio.Shared.csproj",
+      "msbuildProject": "../palwio.Shared/palwio.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "palwio.Console >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\4cG1\\.nuget\\packages\\": {},
+    "C:\\Users\\mikob\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\4cG1\\source\\repos\\palwio\\palwio.Desktop\\palwio.Desktop.csproj",
+      "projectUniqueName": "C:\\Users\\mikob\\Downloads\\Homework\\C-Hashtag-petrol\\palwio.Desktop\\palwio.Desktop.csproj",
       "projectName": "palwio.Desktop",
-      "projectPath": "C:\\Users\\4cG1\\source\\repos\\palwio\\palwio.Desktop\\palwio.Desktop.csproj",
-      "packagesPath": "C:\\Users\\4cG1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\4cG1\\source\\repos\\palwio\\palwio.Desktop\\obj\\",
+      "projectPath": "C:\\Users\\mikob\\Downloads\\Homework\\C-Hashtag-petrol\\palwio.Desktop\\palwio.Desktop.csproj",
+      "packagesPath": "C:\\Users\\mikob\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mikob\\Downloads\\Homework\\C-Hashtag-petrol\\palwio.Desktop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\4cG1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mikob\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,13 +110,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mikob\\Downloads\\Homework\\C-Hashtag-petrol\\palwio\\palwio.Console.csproj": {
+              "projectPath": "C:\\Users\\mikob\\Downloads\\Homework\\C-Hashtag-petrol\\palwio\\palwio.Console.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -70,7 +150,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

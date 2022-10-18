@@ -10,3 +10,15 @@ C:\Users\4cG1\source\repos\palwio\palwio.Shared\obj\Debug\net6.0\palwio.Shared.d
 C:\Users\4cG1\source\repos\palwio\palwio.Shared\obj\Debug\net6.0\refint\palwio.Shared.dll
 C:\Users\4cG1\source\repos\palwio\palwio.Shared\obj\Debug\net6.0\palwio.Shared.pdb
 C:\Users\4cG1\source\repos\palwio\palwio.Shared\obj\Debug\net6.0\ref\palwio.Shared.dll
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\bin\Debug\net6.0\palwio.Shared.deps.json
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\bin\Debug\net6.0\palwio.Shared.dll
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\bin\Debug\net6.0\palwio.Shared.pdb
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.csproj.AssemblyReference.cache
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.AssemblyInfoInputs.cache
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.AssemblyInfo.cs
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.csproj.CoreCompileInputs.cache
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.dll
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\refint\palwio.Shared.dll
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\palwio.Shared.pdb
+C:\Users\mikob\Downloads\Homework\C-Hashtag-petrol\palwio.Shared\obj\Debug\net6.0\ref\palwio.Shared.dll

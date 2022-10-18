@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "j6lC6ZqrjyGwonLycgyJUH1+8Ov63vKLfCmHjZe2gh8CuEVAN/mrQBul6GcX+1/SgI8wEDGtOknMJs5Hg9YwFg==",
+  "dgSpecHash": "bRPHvSL6nVVmX9kn8IRwz1kpNN+dp7RmX1L1U5zz90xsYcsFV9o69h8B7q1Uqp7tRjcnBLLVFDpqPFYBfv3XUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\4cG1\\source\\repos\\palwio\\palwio\\palwio.Console.csproj",
+  "projectFilePath": "C:\\Users\\mikob\\Downloads\\Homework\\C-Hashtag-petrol\\palwio\\palwio.Console.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\4cG1\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+    "C:\\Users\\mikob\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
   ],
   "logs": []
 }
